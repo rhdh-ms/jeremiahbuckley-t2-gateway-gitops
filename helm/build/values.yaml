@@ -1,0 +1,15 @@
+app:
+  name: jeremiahbuckley-t2-poi-gateway-app
+  namespace: jeremiahbuckley-t2
+  cluster: .apps.igb2792k.eastus2.aroapp.io
+
+git:
+  branch: main
+  repo: https://github.com/rhdh-ms/jeremiahbuckley-t2-gateway
+  org: rhdh-ms
+  name: jeremiahbuckley-t2-gateway
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: jeremiahbuckley-t2/poi-gateway-app
+  tag: latest
